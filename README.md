@@ -1,7 +1,7 @@
-zappa_boilerplate_cookiecutter
+Zappa Boilerplate cookiecutter
 ==============================
 
-A cookiecutter template for basic applications using Flask + Zappa.
+A cookiecutter template for basic application using Flask + Zappa.
 
 
 Getting Started
@@ -19,7 +19,7 @@ You will be asked for basic info (name, project name, app name, etc.) that will 
 Acknowledgements
 ----------------
 
-This repo used the [cookiecutter-flask](https://github.com/sloria/cookiecutter-flask) repo as a starting point. And of course, it was inspired by the [Zappa](https://github.com/Miserlou/Zappa) project.
+This repo borrows heavily from the [cookiecutter-flask](https://github.com/sloria/cookiecutter-flask) repo. And of course, it was inspired by the [Zappa](https://github.com/Miserlou/Zappa) project.
 
 
 Changelog
@@ -28,7 +28,6 @@ Changelog
 0.0.0 (2017-08-03)
 ******************
 - First iteration
-- Bootstrap 3 final
-- Working User model and registration
+- Basic application with User model and registration
 
 
