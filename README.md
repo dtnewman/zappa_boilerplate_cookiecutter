@@ -10,7 +10,7 @@ Just run these commands:
 
 ```
 $ pip install cookiecutter
-$ cookiecutter https://github.com/sloria/cookiecutter-flask.git
+$ cookiecutter https://github.com/dtnewman/zappa_boilerplate_cookiecutter.git
 ```
 
 You will be asked for basic info (name, project name, app name, etc.) that will be used in your new project.
