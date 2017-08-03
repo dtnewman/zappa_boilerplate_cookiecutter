@@ -3,6 +3,6 @@
 	"email": "foo@example.com",
 	"github_username": "foobar",
 	"project_name": "My Zappa App",
-	"app_name": "myzappaapp",
-	"project_short_description": "A flask+zappa app."
+	"app_name": "my_zappa_app",
+	"project_short_description": "A simple web application that uses Flask and Zappa."
 }
