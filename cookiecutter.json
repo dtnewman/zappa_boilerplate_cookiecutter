@@ -1,0 +1,8 @@
+{
+	"full_name": "Foo McBar",
+	"email": "foo@example.com",
+	"github_username": "foobar",
+	"project_name": "My Zappa App",
+	"app_name": "myzappaapp",
+	"project_short_description": "A flask+zappa app."
+}

@@ -1,0 +1,32 @@
+{% raw %}
+{% extends "layout.html" %}
+{% block page_title %}About{% endblock %}
+
+{% block content %}
+<div class="body-content">
+    <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+            <h2>About this site</h2>
+            <p>
+                <ul>
+                    <li>Runs on AWS <a href="https://aws.amazon.com/lambda/">Lambda</a> +
+                        <a href="https://aws.amazon.com/api-gateway/">API Gateway</a> (there is no permanent server).
+                    </li>
+                    <li>Built with the <a href="http://flask.pocoo.org/">Flask</a> framework and deployed
+                        using the <a href="https://github.com/Miserlou/Zappa">Zappa</a> package.
+                    </li>
+                    <li>The backend uses a PostgreSQL database to store information.</li>
+                    <li>This site has a few pages (Home, About, etc.) and also features the ability to register
+                        and login as a user. I intentionally kept it simple so that this project can be used as a basis
+                        for your own projects!
+                    </li>
+                    <li>Checkout the project on <a href="https://github.com/dtnewman/zappa_boilerplate">github</a>.
+                        Feel free to use it and modify as you see fit. Contributions to the project are always welcome.
+                    </li>
+                </ul>
+            </p>
+        </div>
+    </div>
+</div>
+{% endblock %}
+{% endraw %}
