@@ -1,6 +1,5 @@
 {
 	"full_name": "Foo McBar",
-	"email": "foo@example.com",
 	"github_username": "foobar",
 	"project_name": "My Zappa App",
 	"app_name": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
