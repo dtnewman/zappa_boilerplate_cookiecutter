@@ -8,6 +8,10 @@ nosetests.xml
 # cache files
 .webassets-cache
 
+# compiled assets
+/{{cookiecutter.app_name}}/static/css/common.css
+/{{cookiecutter.app_name}}/static/js/common.js
+
 # pycharm files
 /.idea/*
 
