@@ -6,19 +6,19 @@
 Quickstart
 ----------
 
-**Step 1:** Clone the repo and install requirements (you probably want to do this inside of a [virtual environment](http://docs.python-guide.org/en/latest/dev/virtualenvs/) with a name like *{{ cookiecutter.project_name }}_venv*):
+**Step 1:** Clone the repo and install requirements (you probably want to do this inside of a [virtual environment](http://docs.python-guide.org/en/latest/dev/virtualenvs/) with a name like *{{ cookiecutter.app_name }}_venv*):
 
 ```
-$ git clone git@github.com:{{ cookiecutter.github_username}}/{{ cookiecutter.project_name }}.git
-$ cd {{ cookiecutter.project_name }}
+$ git clone git@github.com:{{ cookiecutter.github_username}}/{{ cookiecutter.app_name }}.git
+$ cd {{ cookiecutter.app_name }}
 $ pip install -r requirements.txt
 ```
 
 **Step 2:** Create local and local test databases:
 
 ```
-$ psql -c 'create database {{ cookiecutter.project_name }};'
-$ psql -c 'create database {{ cookiecutter.project_name }}_test;'
+$ psql -c 'create database {{ cookiecutter.app_name }};'
+$ psql -c 'create database {{ cookiecutter.app_name }}_test;'
 ```
 
 **Step 3:** Setup the local database
