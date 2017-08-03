@@ -1,6 +1,8 @@
 Zappa Boilerplate cookiecutter
 ==============================
 
+[![Build Status](https://travis-ci.org/dtnewman/zappa_boilerplate_cookiecutter.svg?branch=master)](https://travis-ci.org/dtnewman/zappa_boilerplate_cookiecutter) 
+
 A cookiecutter template for a basic web application using Flask + Zappa.
 
 
