@@ -3,6 +3,6 @@
 	"email": "foo@example.com",
 	"github_username": "foobar",
 	"project_name": "My Zappa App",
-	"app_name": "my_zappa_app",
+	"app_name": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
 	"project_short_description": "A simple web application that uses Flask and Zappa."
 }

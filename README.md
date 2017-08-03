@@ -1,7 +1,7 @@
 Zappa Boilerplate cookiecutter
 ==============================
 
-A cookiecutter template for basic application using Flask + Zappa.
+A cookiecutter template for a basic web application using Flask + Zappa.
 
 
 Getting Started
