@@ -1,7 +1,7 @@
 import bcrypt
 import datetime
 import flask
-from flask.ext.login import UserMixin
+from flask_login import UserMixin
 import sqlalchemy
 
 from {{ cookiecutter.app_name }}.database import Base

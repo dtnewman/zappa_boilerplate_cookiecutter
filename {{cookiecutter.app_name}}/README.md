@@ -3,6 +3,10 @@
 
 {{ cookiecutter.project_short_description}}
 
+Python Version
+--------------
+This project is supported on Python versions 2.7 and 3.6.
+ 
 Quickstart
 ----------
 
@@ -12,6 +16,7 @@ Quickstart
 $ git clone git@github.com:{{ cookiecutter.github_username}}/{{ cookiecutter.app_name }}.git
 $ cd {{ cookiecutter.app_name }}
 $ pip install -r requirements.txt
+$ pip install -r requirements_test.txt  # installs libraries needed for testing
 ```
 
 **Step 2:** Create local and local test databases:
